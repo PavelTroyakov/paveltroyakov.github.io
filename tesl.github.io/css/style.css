@@ -52,6 +52,10 @@ body {
     height: 2px;
     background-color: #ffffff;
     margin: 5px 0;
+    
+    
+}
+.header-content {
 }
 .header-content__tittle {
     font-family: Roboto;
@@ -76,6 +80,7 @@ margin-bottom: 40px;
 }
 .header-content__btn:hover {
     background: #770302;
+    
 }
 .close-btn {
     width: 50px;
@@ -85,6 +90,7 @@ margin-bottom: 40px;
     right: 15px;
     top: 31px;
     cursor: pointer;
+    
 }
 .close-btn::after,
 .close-btn::before{
@@ -97,6 +103,7 @@ margin-bottom: 40px;
 }
 .close-btn::after{
     transform: rotate(45deg);
+    
 }
 .close-btn::before {
     transform: rotate(-45deg);
@@ -174,13 +181,15 @@ margin-bottom: 40px;
     z-index: 6;
     max-width: 1200px;
 }
-/*======================блок спецификации======================*/
 .specifications {
     padding: 105px 0 100px 0;
 }
 .specifications-descriptions {
     display: flex;
     justify-content: space-around;
+    
+   
+    
 }
 .specifications-item{
     display: flex;
@@ -188,9 +197,7 @@ margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
-}
-.specification-img img {
-    max-width: 100%;
+    
 }
 .specification-name {
     font-family: Roboto Condensed;
@@ -221,7 +228,12 @@ font-size: 24px;
 line-height: 28px;
 color: #B70021;
 }
-/*======================Блок с преимуществами======================*/
+.advantages {
+}
+.container {
+}
+.advantages-items {
+}
 .advantages-item__speed{
     display: flex;
     justify-content: space-between;
@@ -245,18 +257,19 @@ color: #B70021;
     margin-bottom: 100px;
 }
 .advantages-item__text {
-    max-width: 303px; 
+    max-width: 303px;
+    
+    
 }
 .speed-item__text-decr {
     max-width: 303px;
-    margin-top: 104px;  
+    margin-top: 104px;
+    
 }
 .advantages-item__text-descr {
     max-width: 251px;
+    
     margin: 94px 0 0 56px;
-}
-.advantages-item__images img {
-    max-width: 100%;
 }
 .advantages-item__text span{
     position: absolute;
@@ -269,7 +282,12 @@ color: #B70021;
     line-height: 42px;
     color: #B70021;
 }
-/*======================Блок презинтации================*/
+.advantages-item__images {
+}
+.presentation {
+}
+.container {
+}
 .presentation-item__text span {
     font-family: Roboto Condensed;
     font-style: normal;
@@ -281,13 +299,13 @@ color: #B70021;
 .presentation-item__images {
     margin-bottom: 100px;
 }
-.presentation-item__images img {
-    max-width: 100%;
-}
 .presentation-items__text {
     display: flex;
     justify-content: space-between;
     margin-bottom: 99px;
+    
+}
+.presentation-item__text {
     
 }
 .presentation-item__descr {
@@ -298,159 +316,37 @@ color: #B70021;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+
 }
-/*начало футера*/
 .footer {
     background: #690102;
     padding: 83px 0 10px 0;
+}
+.container {
 }
 .footer-inner {
     display: flex;
     justify-content: center;
 }
+    
+
+.header-content__btn {
+    
+}
 .footer-list {
+    
+    
+}
+.footer-list ul {
     display: flex;
     justify-content: center;
     margin-top: 86px;
 }
-.footer-list li {
+.footer-list ul li {
     list-style: none;
 }
-.footer-list li+li {
+.footer-list ul li+li {
     border-left: 2px solid #fff;
     padding-left: 15px;
     margin-left: 15px;
-}
-/*======================медиа-запросы======================*/
-@media(max-width:1024px){
-    .advantages-item__text-descr {
-        max-width: 251px;
-        margin: 0px 0 0 56px;
-        font-size: 18px;
-    }
-    .advantages-item__text span {
-        font-size: 24px;
-        line-height: 29px;
-    }
-    .speed-item__text-decr {
-        font-size: 18px;
-    }
-    .presentation-items__text {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 99px;
-        flex-wrap: wrap;
-    }
-    .footer {
-        background: #690102;
-        padding: 55px 0 10px 0;
-    }
-    .footer-list{
-        flex-wrap: wrap;
-    }
-}
-@media (max-width:768px){
-    .specifications {
-        padding: 70px 0 50px 0;
-    }
-    .specifications-item {
-        margin-bottom: 50px;
-    }
-    .specification-indicator {
-        font-size: 29px;
-        line-height: 61px;
-    }
-    .specification-name {
-        font-size: 21px;
-        line-height: 15px;
-    }
-    .specification-descr {
-        font-size: 20px;
-        line-height: 14px;
-    }
-    .advantages-item__images img {
-        max-width: 100%;
-    }
-    .speed-item__text span {
-        font-size: 28px;
-        line-height: 26px;
-    }
-    .speed-item__text-decr {
-        max-width: 160px;
-        margin-top: 60px;
-        font-size: 14px;
-    }
-    .advantages-item__text-descr {
-        max-width: 100%;
-        margin: 40px 0 0 0;
-        font-size: 14px;
-    }
-    .advantages-item__speed {
-        margin-bottom: 20px;
-        flex-wrap: wrap;
-    }
-    .advantages-item__adv {
-        margin-bottom: 40px;
-        flex-wrap: wrap-reverse;
-    }
-    .advantages-item__text span {
-        left: 0;
-        top: 0;
-    }
-    .presentation-item__descr {
-        margin-left: 35px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-}
-@media (max-width:480px){
-    .header-content__tittle {
-        font-size: 50px;
-        line-height: 112px;
-        margin-bottom: 18px;
-    }
-    .header-content__text {
-        max-width: 240px;
-        margin-bottom: 18px;
-        font-size: 16px;
-    }
-    .header-content__btn {
-        padding: 22px 22px; 
-    }
-    .logo a img {
-        width: 170px;
-    }
-    .menu-list a {
-        font-size: 20px;
-        padding: 30px 25px 14px 0;
-        min-width: 280px;
-        line-height: 24px;
-    }
-    .close-btn::after, .close-btn::before {
-        content: "";
-        width: 50px;
-        
-    }
-    .close-btn {
-        width: 35px;
-        height: 35px;
-    }
-    .menu-list a:hover{
-        margin: 0;
-        transform: scale(1);
-    }
-    .specifications-item {
-       width: 100%;
-       margin-bottom: 30px;
-    }
-    .specifications-descriptions{
-        flex-wrap: wrap;
-    }
-    .header-content__btn {
-        padding: 18px 30px;
-    }
-    .footer-list {
-        margin-top: 40px;
-        font-size: 16px;
-    }
 }
